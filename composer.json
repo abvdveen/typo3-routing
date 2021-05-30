@@ -1,0 +1,23 @@
+{
+    "name": "netklaar/typo3-routing",
+    "description" : "Extend UrlGenerator with preg_replace",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "typo3/cms-core": "^9.5 || ^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netklaar\\TYPO3\\Routing\\": "src/"
+        },
+        "files": [
+            "res/php/autoload-include.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+    }
+}
